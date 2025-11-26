@@ -61,7 +61,7 @@ public class KopiranjeIzvorneDatotekeByte {
                     System.out.println("Desktop API nije podržan na ovom sustavu.");
                 }
             } catch (IOException e) {
-                System.out.println("Ne mogu otvoriti File Explorer: " + e.getMessage());
+                System.out.println("Ne mogu otvoriti kopiranu datoteku u File Exploreru: " + e.getMessage());
             }
             //  Brisanje datoteke
             System.out.print("Želite li obrisati kopiranu datoteku? (da/ne): ");
